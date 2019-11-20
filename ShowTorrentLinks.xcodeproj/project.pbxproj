@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1267387423856E9600A980F4 /* ShowTorrentLinks.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 1267387323856E9600A980F4 /* ShowTorrentLinks.entitlements */; };
+		1267387623856E9600A980F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1267387523856E9600A980F4 /* AppDelegate.swift */; };
+		1267387923856E9600A980F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1267387723856E9600A980F4 /* Main.storyboard */; };
+		1267387B23856E9600A980F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1267387A23856E9600A980F4 /* ViewController.swift */; };
+		1267387D23856E9800A980F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1267387C23856E9800A980F4 /* Assets.xcassets */; };
+		1267388423856E9800A980F4 /* ShowTorrentLinks Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1267388323856E9800A980F4 /* ShowTorrentLinks Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1267388923856E9800A980F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1267388823856E9800A980F4 /* Cocoa.framework */; };
+		1267388C23856E9800A980F4 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1267388B23856E9800A980F4 /* SafariExtensionHandler.swift */; };
+		1267388E23856E9800A980F4 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1267388D23856E9800A980F4 /* SafariExtensionViewController.swift */; };
+		1267389123856E9800A980F4 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1267388F23856E9800A980F4 /* SafariExtensionViewController.xib */; };
+		1267389423856E9800A980F4 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1267389323856E9800A980F4 /* script.js */; };
+		1267389623856E9800A980F4 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1267389523856E9800A980F4 /* ToolbarItemIcon.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1267388523856E9800A980F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1267386823856E9600A980F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1267388223856E9800A980F4;
+			remoteInfo = "ShowTorrentLinks Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1267389D23856E9800A980F4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1267388423856E9800A980F4 /* ShowTorrentLinks Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1267387023856E9600A980F4 /* ShowTorrentLinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowTorrentLinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1267387323856E9600A980F4 /* ShowTorrentLinks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShowTorrentLinks.entitlements; sourceTree = "<group>"; };
+		1267387523856E9600A980F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1267387823856E9600A980F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1267387A23856E9600A980F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1267387C23856E9800A980F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1267387E23856E9800A980F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1267388323856E9800A980F4 /* ShowTorrentLinks Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ShowTorrentLinks Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1267388823856E9800A980F4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1267388B23856E9800A980F4 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		1267388D23856E9800A980F4 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		1267389023856E9800A980F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		1267389223856E9800A980F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1267389323856E9800A980F4 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		1267389523856E9800A980F4 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		1267389723856E9800A980F4 /* ShowTorrentLinks_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShowTorrentLinks_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1267386D23856E9600A980F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1267388023856E9800A980F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1267388923856E9800A980F4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1267386723856E9600A980F4 = {
+			isa = PBXGroup;
+			children = (
+				1267387223856E9600A980F4 /* ShowTorrentLinks */,
+				1267388A23856E9800A980F4 /* ShowTorrentLinks Extension */,
+				1267388723856E9800A980F4 /* Frameworks */,
+				1267387123856E9600A980F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1267387123856E9600A980F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1267387023856E9600A980F4 /* ShowTorrentLinks.app */,
+				1267388323856E9800A980F4 /* ShowTorrentLinks Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1267387223856E9600A980F4 /* ShowTorrentLinks */ = {
+			isa = PBXGroup;
+			children = (
+				1267387323856E9600A980F4 /* ShowTorrentLinks.entitlements */,
+				1267387523856E9600A980F4 /* AppDelegate.swift */,
+				1267387723856E9600A980F4 /* Main.storyboard */,
+				1267387A23856E9600A980F4 /* ViewController.swift */,
+				1267387C23856E9800A980F4 /* Assets.xcassets */,
+				1267387E23856E9800A980F4 /* Info.plist */,
+			);
+			path = ShowTorrentLinks;
+			sourceTree = "<group>";
+		};
+		1267388723856E9800A980F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1267388823856E9800A980F4 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1267388A23856E9800A980F4 /* ShowTorrentLinks Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1267388B23856E9800A980F4 /* SafariExtensionHandler.swift */,
+				1267388D23856E9800A980F4 /* SafariExtensionViewController.swift */,
+				1267388F23856E9800A980F4 /* SafariExtensionViewController.xib */,
+				1267389223856E9800A980F4 /* Info.plist */,
+				1267389323856E9800A980F4 /* script.js */,
+				1267389523856E9800A980F4 /* ToolbarItemIcon.pdf */,
+				1267389723856E9800A980F4 /* ShowTorrentLinks_Extension.entitlements */,
+			);
+			path = "ShowTorrentLinks Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1267386F23856E9600A980F4 /* ShowTorrentLinks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1267389E23856E9800A980F4 /* Build configuration list for PBXNativeTarget "ShowTorrentLinks" */;
+			buildPhases = (
+				1267386C23856E9600A980F4 /* Sources */,
+				1267386D23856E9600A980F4 /* Frameworks */,
+				1267386E23856E9600A980F4 /* Resources */,
+				1267389D23856E9800A980F4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1267388623856E9800A980F4 /* PBXTargetDependency */,
+			);
+			name = ShowTorrentLinks;
+			productName = ShowTorrentLinks;
+			productReference = 1267387023856E9600A980F4 /* ShowTorrentLinks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1267388223856E9800A980F4 /* ShowTorrentLinks Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1267389A23856E9800A980F4 /* Build configuration list for PBXNativeTarget "ShowTorrentLinks Extension" */;
+			buildPhases = (
+				1267387F23856E9800A980F4 /* Sources */,
+				1267388023856E9800A980F4 /* Frameworks */,
+				1267388123856E9800A980F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShowTorrentLinks Extension";
+			productName = "ShowTorrentLinks Extension";
+			productReference = 1267388323856E9800A980F4 /* ShowTorrentLinks Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1267386823856E9600A980F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Jon Hogg";
+				TargetAttributes = {
+					1267386F23856E9600A980F4 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					1267388223856E9800A980F4 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1267386B23856E9600A980F4 /* Build configuration list for PBXProject "ShowTorrentLinks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1267386723856E9600A980F4;
+			productRefGroup = 1267387123856E9600A980F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1267386F23856E9600A980F4 /* ShowTorrentLinks */,
+				1267388223856E9800A980F4 /* ShowTorrentLinks Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1267386E23856E9600A980F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1267387423856E9600A980F4 /* ShowTorrentLinks.entitlements in Resources */,
+				1267387D23856E9800A980F4 /* Assets.xcassets in Resources */,
+				1267387923856E9600A980F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1267388123856E9800A980F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1267389623856E9800A980F4 /* ToolbarItemIcon.pdf in Resources */,
+				1267389123856E9800A980F4 /* SafariExtensionViewController.xib in Resources */,
+				1267389423856E9800A980F4 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1267386C23856E9600A980F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1267387B23856E9600A980F4 /* ViewController.swift in Sources */,
+				1267387623856E9600A980F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1267387F23856E9800A980F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1267388E23856E9800A980F4 /* SafariExtensionViewController.swift in Sources */,
+				1267388C23856E9800A980F4 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1267388623856E9800A980F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1267388223856E9800A980F4 /* ShowTorrentLinks Extension */;
+			targetProxy = 1267388523856E9800A980F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1267387723856E9600A980F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1267387823856E9600A980F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1267388F23856E9800A980F4 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1267389023856E9800A980F4 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1267389823856E9800A980F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1267389923856E9800A980F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1267389B23856E9800A980F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ShowTorrentLinks Extension/ShowTorrentLinks_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EGP9NZS84E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "ShowTorrentLinks Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.strangled.ShowTorrentLinks-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1267389C23856E9800A980F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ShowTorrentLinks Extension/ShowTorrentLinks_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EGP9NZS84E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "ShowTorrentLinks Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.strangled.ShowTorrentLinks-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1267389F23856E9800A980F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShowTorrentLinks/ShowTorrentLinks.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EGP9NZS84E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ShowTorrentLinks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.strangled.ShowTorrentLinks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		126738A023856E9800A980F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ShowTorrentLinks/ShowTorrentLinks.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = EGP9NZS84E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ShowTorrentLinks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.strangled.ShowTorrentLinks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1267386B23856E9600A980F4 /* Build configuration list for PBXProject "ShowTorrentLinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1267389823856E9800A980F4 /* Debug */,
+				1267389923856E9800A980F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1267389A23856E9800A980F4 /* Build configuration list for PBXNativeTarget "ShowTorrentLinks Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1267389B23856E9800A980F4 /* Debug */,
+				1267389C23856E9800A980F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1267389E23856E9800A980F4 /* Build configuration list for PBXNativeTarget "ShowTorrentLinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1267389F23856E9800A980F4 /* Debug */,
+				126738A023856E9800A980F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1267386823856E9600A980F4 /* Project object */;
+}
