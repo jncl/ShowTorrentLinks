@@ -14,7 +14,7 @@
 		1267388423856E9800A980F4 /* ShowTorrentLinks Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1267388323856E9800A980F4 /* ShowTorrentLinks Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1267388923856E9800A980F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1267388823856E9800A980F4 /* Cocoa.framework */; };
 		1267388C23856E9800A980F4 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1267388B23856E9800A980F4 /* SafariExtensionHandler.swift */; };
-		1267389423856E9800A980F4 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1267389323856E9800A980F4 /* script.js */; };
+		128825042388198700E6157B /* injected.js in Resources */ = {isa = PBXBuildFile; fileRef = 128825032388198700E6157B /* injected.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		1267388823856E9800A980F4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1267388B23856E9800A980F4 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
 		1267389223856E9800A980F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1267389323856E9800A980F4 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		1267389723856E9800A980F4 /* ShowTorrentLinks_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShowTorrentLinks_Extension.entitlements; sourceTree = "<group>"; };
+		128825032388198700E6157B /* injected.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = injected.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +117,9 @@
 		1267388A23856E9800A980F4 /* ShowTorrentLinks Extension */ = {
 			isa = PBXGroup;
 			children = (
+				128825032388198700E6157B /* injected.js */,
 				1267388B23856E9800A980F4 /* SafariExtensionHandler.swift */,
 				1267389223856E9800A980F4 /* Info.plist */,
-				1267389323856E9800A980F4 /* script.js */,
 				1267389723856E9800A980F4 /* ShowTorrentLinks_Extension.entitlements */,
 			);
 			path = "ShowTorrentLinks Extension";
@@ -215,7 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1267389423856E9800A980F4 /* script.js in Resources */,
+				128825042388198700E6157B /* injected.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

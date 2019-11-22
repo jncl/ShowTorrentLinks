@@ -5,7 +5,7 @@
 //  Created by Jon Hogg on 20/11/2019.
 //  Copyright © 2019 Jon Hogg. All rights reserved.
 //
-let myDebug = true
+let myDebug = false
 
 struct Session {
     let server: String
