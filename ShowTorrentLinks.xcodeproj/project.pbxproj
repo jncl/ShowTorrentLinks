@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1267387423856E9600A980F4 /* ShowTorrentLinks.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 1267387323856E9600A980F4 /* ShowTorrentLinks.entitlements */; };
 		1267387623856E9600A980F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1267387523856E9600A980F4 /* AppDelegate.swift */; };
 		1267387923856E9600A980F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1267387723856E9600A980F4 /* Main.storyboard */; };
 		1267387B23856E9600A980F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1267387A23856E9600A980F4 /* ViewController.swift */; };
@@ -15,10 +14,7 @@
 		1267388423856E9800A980F4 /* ShowTorrentLinks Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1267388323856E9800A980F4 /* ShowTorrentLinks Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1267388923856E9800A980F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1267388823856E9800A980F4 /* Cocoa.framework */; };
 		1267388C23856E9800A980F4 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1267388B23856E9800A980F4 /* SafariExtensionHandler.swift */; };
-		1267388E23856E9800A980F4 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1267388D23856E9800A980F4 /* SafariExtensionViewController.swift */; };
-		1267389123856E9800A980F4 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1267388F23856E9800A980F4 /* SafariExtensionViewController.xib */; };
 		1267389423856E9800A980F4 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1267389323856E9800A980F4 /* script.js */; };
-		1267389623856E9800A980F4 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1267389523856E9800A980F4 /* ToolbarItemIcon.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +43,6 @@
 
 /* Begin PBXFileReference section */
 		1267387023856E9600A980F4 /* ShowTorrentLinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowTorrentLinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1267387323856E9600A980F4 /* ShowTorrentLinks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShowTorrentLinks.entitlements; sourceTree = "<group>"; };
 		1267387523856E9600A980F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1267387823856E9600A980F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1267387A23856E9600A980F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,11 +51,8 @@
 		1267388323856E9800A980F4 /* ShowTorrentLinks Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ShowTorrentLinks Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1267388823856E9800A980F4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1267388B23856E9800A980F4 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
-		1267388D23856E9800A980F4 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
-		1267389023856E9800A980F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		1267389223856E9800A980F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1267389323856E9800A980F4 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
-		1267389523856E9800A980F4 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		1267389723856E9800A980F4 /* ShowTorrentLinks_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShowTorrentLinks_Extension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +97,6 @@
 		1267387223856E9600A980F4 /* ShowTorrentLinks */ = {
 			isa = PBXGroup;
 			children = (
-				1267387323856E9600A980F4 /* ShowTorrentLinks.entitlements */,
 				1267387523856E9600A980F4 /* AppDelegate.swift */,
 				1267387723856E9600A980F4 /* Main.storyboard */,
 				1267387A23856E9600A980F4 /* ViewController.swift */,
@@ -127,11 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				1267388B23856E9800A980F4 /* SafariExtensionHandler.swift */,
-				1267388D23856E9800A980F4 /* SafariExtensionViewController.swift */,
-				1267388F23856E9800A980F4 /* SafariExtensionViewController.xib */,
 				1267389223856E9800A980F4 /* Info.plist */,
 				1267389323856E9800A980F4 /* script.js */,
-				1267389523856E9800A980F4 /* ToolbarItemIcon.pdf */,
 				1267389723856E9800A980F4 /* ShowTorrentLinks_Extension.entitlements */,
 			);
 			path = "ShowTorrentLinks Extension";
@@ -218,7 +206,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1267387423856E9600A980F4 /* ShowTorrentLinks.entitlements in Resources */,
 				1267387D23856E9800A980F4 /* Assets.xcassets in Resources */,
 				1267387923856E9600A980F4 /* Main.storyboard in Resources */,
 			);
@@ -228,8 +215,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1267389623856E9800A980F4 /* ToolbarItemIcon.pdf in Resources */,
-				1267389123856E9800A980F4 /* SafariExtensionViewController.xib in Resources */,
 				1267389423856E9800A980F4 /* script.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,7 +235,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1267388E23856E9800A980F4 /* SafariExtensionViewController.swift in Sources */,
 				1267388C23856E9800A980F4 /* SafariExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,14 +256,6 @@
 				1267387823856E9600A980F4 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1267388F23856E9800A980F4 /* SafariExtensionViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1267389023856E9800A980F4 /* Base */,
-			);
-			name = SafariExtensionViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -464,7 +440,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = ShowTorrentLinks/ShowTorrentLinks.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ShowTorrentLinks/ShowTorrentLinksRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = EGP9NZS84E;
