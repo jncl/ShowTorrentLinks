@@ -3,7 +3,7 @@
 //  ShowTorrentLinks Extension
 //
 //  Created by Jon Hogg on 20/11/2019.
-//  Copyright © 2019 Jon Hogg. All rights reserved.
+//  Copyright © 2021 Jon Hogg. All rights reserved.
 //
 let myDebug = false
 
@@ -21,7 +21,7 @@ struct Request: Codable {
     let tag: String
 }
 
-var ses = Session(server: "192.168.18.97", port: 9091, rpcPath: "/transmission/rpc", user: "xmitd", pass: "xmitd", sessionId: "")
+var ses = Session(server: "192.168.18.98", port: 9091, rpcPath: "/transmission/rpc", user: "xmitd", pass: "xmitd", sessionId: "")
 
 import SafariServices
 
