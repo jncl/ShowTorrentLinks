@@ -21,7 +21,12 @@ struct Request: Codable {
     let tag: String
 }
 
-var ses = Session(server: "192.168.18.98", port: 9091, rpcPath: "/transmission/rpc", user: "xmitd", pass: "xmitd", sessionId: "")
+var ses = Session(server: "mediaserver18.h0stname.net",
+				  port: 28991,
+				  rpcPath: "/transmission/rpc",
+				  user: "xmitd",
+				  pass: "xmitd",
+				  sessionId: "")
 
 import SafariServices
 
